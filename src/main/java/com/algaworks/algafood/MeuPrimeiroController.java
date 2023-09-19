@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class MeuPrimeiroController {
 
-    //@GetMapping indica qual o caminho para chegar no método
+    //@GetMapping indica qual o caminho para chegar no método via web.
     @GetMapping("/hello")
     //@ResponseBody indica que queremos que a String seja devolvida como resposta para requisição.
     @ResponseBody
