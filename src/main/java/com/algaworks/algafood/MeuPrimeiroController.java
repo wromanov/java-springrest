@@ -13,7 +13,7 @@ public class MeuPrimeiroController {
     //@ResponseBody indica que queremos que a String seja devolvida como resposta para requisição.
     @ResponseBody
     public String hello() {
-        return "Hello";
+        return "Oi";
     }
 
 }
